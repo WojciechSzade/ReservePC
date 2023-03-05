@@ -10,3 +10,4 @@ def validateNonNegativeAndNotZero(value):
     if value <= 0:
         raise ValidationError("Only non-negative values are allowed")
     return value
+

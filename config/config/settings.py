@@ -64,6 +64,7 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+
             ],
         },
     },
@@ -126,3 +127,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 #set user model to custom user model
 AUTH_USER_MODEL = "ReservePC.User"
+
+#set login url
+LOGIN_REDIRECT_URL = "/"
